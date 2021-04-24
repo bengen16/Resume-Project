@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: Nobel;
+	color:#09207D;
+}
+
+h1{
+	text-align: center;
+	font-family: Windsor Pro Bold;
+	font-size: 60pt;
+}
+
+
+
+
+hr{
+ border: 1px solid #09207D;
+}
+
+p{
+
+}
+body{
+	background: #F2EFEB;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 900px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@font-face {
+    font-family: 'Windsor Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Windsor Pro Regular'), url('font/WindsorProRg.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Windsor Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Windsor Pro Bold'), url('font/WindsorProBold.woff') format('woff');
+    }
